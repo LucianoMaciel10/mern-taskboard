@@ -1,0 +1,14 @@
+{
+  "name": "freecodecamp-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm i --prefix backend && pnpm i --prefix frontend && pnpm build --prefix frontend",
+    "start": "pnpm start --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.20.0"
+}
