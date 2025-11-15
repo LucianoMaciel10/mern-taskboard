@@ -12,6 +12,8 @@
 
 **[Ver Aplicación →](https://mern-taskboard-8.onrender.com)**
 
+> ⚠️ **Nota:** La aplicación está hosteada en Render (plan gratuito). Si no se ha usado recientemente, puede tardar 30-60 segundos en iniciar la primera vez que accedas.
+
 ## 📖 Descripción
 
 Aplicación web full-stack que permite a los usuarios crear, editar y eliminar notas con título y descripción. Construida como proyecto de aprendizaje del stack MERN, implementa conceptos modernos de desarrollo web como rate limiting, responsive design y arquitectura RESTful.
@@ -56,7 +58,9 @@ Aplicación web full-stack que permite a los usuarios crear, editar y eliminar n
 
 ## 🚀 Deployment
 
-Aplicación deployada en **Render**, donde el backend sirve tanto la API como los archivos estáticos del frontend, resultando en una arquitectura monolítica eficiente para proyectos pequeños y medianos.
+Aplicación deployada en **Render (Free Tier)**, donde el backend sirve tanto la API como los archivos estáticos del frontend, resultando en una arquitectura monolítica eficiente para proyectos pequeños y medianos.
+
+> **Nota sobre Render Free Tier:** El servicio se suspende después de 15 minutos de inactividad y tarda aproximadamente 30-60 segundos en reactivarse al recibir una nueva solicitud.
 
 ## 📚 Créditos
 
