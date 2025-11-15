@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "pnpm install --prefix backend && pnpm install --prefix frontend && pnpm run build --prefix frontend",
-    "start": "pnpm run start --prefix backend"
+    "install-backend": "pnpm install --prefix backend",
+    "install-frontend": "pnpm install --prefix frontend",
+    "build-frontend": "pnpm run build --prefix frontend",
+    "build": "pnpm run install-backend && pnpm run install-frontend && pnpm run build-frontend",
+    "start": "node backend/server.js"
   },
   "keywords": [],
   "author": "",
